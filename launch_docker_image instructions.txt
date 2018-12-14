@@ -1,0 +1,7 @@
+docker run -i -t jupyter/scipy-notebook:latest /bin/bash
+docker images
+# Find your jupyter/scipy-notebook image ID
+# docker run -p 8888:8888 <image_id>
+docker run -p 8888:8888 11ed466a40e6
+# Paste URL in browser given when launching docker image
+# example http://127.0.0.1:8888/?<token_id_generated>
