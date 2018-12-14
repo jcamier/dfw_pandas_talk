@@ -15,4 +15,4 @@ LinkedIn: https://www.linkedin.com/in/himanshuchaturvedi/
 
 Jacques "Jack" Camier
 jcamier@autom8tap.com
-LinkedIn: https://www.linkedin.com/in/jacques-camier-cpa-lssbb-59a0a2b
+LinkedIn: https://www.linkedin.com/in/jacques-camier/
