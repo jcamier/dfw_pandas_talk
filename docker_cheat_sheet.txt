@@ -10,6 +10,13 @@ docker-compose --version
 Get help:
 docker --help
 
+Get a docker image from Docker hub:
+docker pull [OPTIONS] NAME[:TAG|@DIGEST]
+# ex. docker pull ubuntu:18.04
+
+See information about your docker environment:
+docker info
+
 See your docker images:
 docker images
 
@@ -17,12 +24,15 @@ Run a docker image:
 docker run -i -t <image_name>:<tag> /bin/bash
 docker run -i -t <docker_id> /bin/bash
 
-Stop a docker image:
+Stop a docker container:
 docker stop <docker_id>
 
 Remove docker images
 docker rmi (docker id, first two characters)
 docker rmi IMAGE ID --force ( if you need to force removal)
+
+Remove docker container
+docker rm <docker_id>
 
 Get details about a container:
 docker inspect (docker id, first two characters)
@@ -43,5 +53,8 @@ docker-compose up
 Killing a docker container:
 docker container kill <docker_id>
 
-docker run -p 8888:8888 11ed466a40e6
+Remove all stopped containers
+docker container prune
+
+
 

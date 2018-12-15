@@ -1,7 +1,18 @@
+# To launch preconfigured docker jupyter notebook
 docker run -i -t jupyter/scipy-notebook:latest /bin/bash
+docker run -p 8888:8888 jupyter/minimal-notebook
+
 docker images
 # Find your jupyter/scipy-notebook image ID
-# docker run -p 8888:8888 <image_id>
-docker run -p 8888:8888 11ed466a40e6
+# docker run -p 8888:8888 <image_id> (external port:internal port)
+docker run -p 8888:8888 fbdcb0e94a9f
 # Paste URL in browser given when launching docker image
 # example http://127.0.0.1:8888/?<token_id_generated>
+
+# Create custom docker image
+docker pull ubuntu
+docker pull python
+
+# Launch custom docker image for talk
+docker build . -t dfwpandas
+docker run -p 8888:8888 dfwpandas
