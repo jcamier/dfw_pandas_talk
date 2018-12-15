@@ -9,7 +9,9 @@ https://www.linkedin.com/in/jmportilla/
 
 We are using image based on a Docker Jupyter Notebook image (4.71GB):
 jupyter/minimal-notebook
+
 Image is called dfwpandas
+
 docker build . -t dfwpandas
 
 GitHub Docs:
