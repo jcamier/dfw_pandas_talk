@@ -12,7 +12,7 @@ ENV HOME=/home/$NB_USER
 USER root
 
 WORKDIR $HOME/work
-RUN wget https://github.com/jcamier/dfw_pandas_talk/blob/master/dfw_pandas_talk.ipynb
+RUN wget https://raw.githubusercontent.com/jcamier/dfw_pandas_talk/master/dfw_pandas_talk.ipynb
 
 # Switch back to jovyan to avoid accidental container runs as root
 USER $NB_UID
