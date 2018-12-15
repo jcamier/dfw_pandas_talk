@@ -7,7 +7,7 @@ A very, special thank you goes to Jose Portilla; my Pandas teacher on Udemy!
 
 https://www.linkedin.com/in/jmportilla/
 
-We are using the based of a Docker Jupyter Notebook image (4.71GB):
+We are using image based on a Docker Jupyter Notebook image (4.71GB):
 jupyter/minimal-notebook
 Image is called dfwpandas
 docker build . -t dfwpandas
