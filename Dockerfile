@@ -11,6 +11,9 @@ ENV HOME=/home/$NB_USER
  # Do not use this user if you plan on using this in production by any means
 USER root
 
+WORKDIR $HOME/work
+RUN wget https://github.com/jcamier/dfw_pandas_talk/blob/master/dfw_pandas_talk.ipynb
+
 # Switch back to jovyan to avoid accidental container runs as root
 USER $NB_UID
 WORKDIR $HOME

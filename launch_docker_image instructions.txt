@@ -16,3 +16,7 @@ docker pull python
 # Launch custom docker image for talk
 docker build . -t dfwpandas
 docker run -p 8888:8888 dfwpandas
+
+
+# To access files within container
+docker run -i -t dfwpandas /bin/bash
