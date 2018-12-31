@@ -2,3 +2,5 @@
 .ipynb_checkpoints
 run_conda_py36.sh
 git_commands_cheatsheet.txt
+Dockerfile
+launch_docker_image instructions.txt
