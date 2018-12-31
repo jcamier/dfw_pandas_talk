@@ -55,6 +55,3 @@ docker container kill <docker_id>
 
 Remove all stopped containers
 docker container prune
-
-
-
