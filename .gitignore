@@ -1,2 +1,4 @@
 .idea*
 .ipynb_checkpoints
+run_conda_py36.sh
+git_commands_cheatsheet.txt

@@ -1,0 +1,8 @@
+# To see the current branch
+git branch
+
+# To create a branch
+git checkout -b <branch_name>
+
+# To see differences in a branch vs master
+git diff <branch_name> master
