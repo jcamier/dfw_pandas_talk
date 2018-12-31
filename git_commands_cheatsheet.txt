@@ -6,3 +6,6 @@ git checkout -b <branch_name>
 
 # To see differences in a branch vs master
 git diff <branch_name> master
+
+# To force local git files to Github
+git push -f origin master
