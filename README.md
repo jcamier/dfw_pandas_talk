@@ -5,7 +5,7 @@ Presented by Himanshu Chaturvedi and Jack Camier - Jan 3rd, 2019
 
 A very, special thank you goes to Jose Portilla; my Pandas teacher on Udemy!
 
-https://www.linkedin.com/in/jmportilla/
+https://www.udemy.com/user/joseportilla/
 
 Contact us at:
 
