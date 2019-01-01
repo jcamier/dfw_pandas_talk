@@ -10,6 +10,7 @@ https://www.linkedin.com/in/jmportilla/
 Contact us at:
 
 Himanshu Chaturvedi
+h.chaturvedi14@gmail.com
 LinkedIn: https://www.linkedin.com/in/himanshuchaturvedi/
 
 Jacques "Jack" Camier
